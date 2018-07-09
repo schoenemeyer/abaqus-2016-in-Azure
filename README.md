@@ -14,4 +14,4 @@ This example shows the performance for Standard Case s2b on different VMs in Azu
 
 Nonlinear static analysis that simulates bolting a cylinder head onto an engine block. Time to Solution on different instances
 
-VMs E16sv3, E32sv3, H16r, NC12-1GPUs (Nvidia K80), NC12-2GPUs (Nvidia K80)   
+For running this benchmark several VMs were used : E16sv3, E32sv3, H16r, NC12-1GPUs (Nvidia K80), NC12-2GPUs (Nvidia K80). The solver used in this benchmark is able to utilize Nvidia Tesla GPUs to reduce the solver time as shown in the figure.
