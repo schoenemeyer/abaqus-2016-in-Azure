@@ -1,0 +1,3 @@
+export I_MPI_FABRICS=shm:dapl  #no rdma so using tcp here...
+export I_MPI_DAPL_PROVIDER=ofa-v2-ib0
+export I_MPI_DYNAMIC_CONNECTION=0
